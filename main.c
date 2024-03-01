@@ -20,9 +20,9 @@ for ( i = 1; i < argc; ++i ) {
    inOrder( b.root );
 
    // traverse the tree postOrder
- printf("\npostnOrder\n" );   postOrder( b.root);
+ printf("\npostOrder\n" );   postOrder( b.root);
    // traverse the tree ExtraOrder
- printf("\nprintTree\n" );   ExtraOrder( b.root,0);
+ printf("\n Printing a Tree\n" );   ExtraOrder( b.root,0);
    printf("\n");
 
 } // end main
