@@ -22,7 +22,7 @@ for ( i = 1; i < argc; ++i ) {
    // traverse the tree postOrder
  printf("\npostnOrder\n" );   postOrder( b.root);
    // traverse the tree ExtraOrder
- printf("printTree\n" );   ExtraOrder( b.root,0);
+ printf("\nprintTree\n" );   ExtraOrder( b.root,0);
    printf("\n");
 
 } // end main
