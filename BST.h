@@ -122,7 +122,7 @@ void ExtraOrder( TreeNodePtr treePtr,int l)
    {  
       ExtraOrder(treePtr->rightPtr,l+1);
       //Recursion to the left
-      for(i=0;i<l*5;i++)
+      for(i=0;i<l;i++)
       printf("   ");
       printf("%3d\n",treePtr->data);
        //print the value 
